@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('Background_Home.png');
+    background-size: cover;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    color: blanchedalmond;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+.shape{
+    flex: none;
+    width: 60vw;
+    height: 60vh;
+    border: blanchedalmond;
+    background: blanchedalmond;
+    color: blue;
+    text-align: center;
+    margin: 15vh 15vw 15vh 15vw;
+    opacity: 0.5;
+    border-radius: 2rem;
+    
+    border-left: 0.5rem solid rgba(255, 255 , 255, 01);
+    border-top: 0.5rem solid rgba(255, 255 , 255, 01);
+    
+    box-sizing: border-box;
+    box-shadow: 20px 20px 50px rgba(255, 255 , 255, 0.25);
+}
+
+.Card_Title_One{
+       
+    text-align: right;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.one .Name{
+    color: black;
+    text-align: left;
+    margin: 0 0 0 2rem;
+    font-size: 4.0rem;
+}
+
+.HC_para{
+    font-size: 2rem;
+    text-align: left;
+    margin: 0.5rem 0 0 2.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.about_para{
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0.5rem 0 0 2.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.icons{
+    width: 2rem;
+    height: 2rem;
+}
+.Home_icon{
+    
+    text-align: right;
+    margin: 0 2rem 0 0;
+}
+
+.Home_icon ul{
+    list-style: none;
+
+}
+
+.Home_icon ul li{
+    padding: 0 0 2rem 0;
+}
+
+
+.about_icon ul{
+    list-style: none;
+    display: flex;
+    padding: 2rem 2rem 2rem 2rem;;
+}
+
+.about_icon li{
+    margin: 0rem 2rem 2rem 2rem;
+}
+
+.contact_icon ul{
+    list-style: none;
+    display: flex;
+    padding: 2rem 2rem 2rem 2rem;;
+}
+
+.contact_icon li{
+    margin: 0rem 2rem 2rem 2rem;
+}
+/*Responsive Using media query*/
+
+@media all and (max-width: 1024px){                                 /*Laptop Small*/
+    html{
+        font-size: 75%
+    }
+}
+
+@media all and (max-width: 426px){                                  /*Mobile Large*/
+    html{
+        font-size: 65%;
+    }
+    .about_icon ul{
+        padding: 0rem 2rem 0rem 2rem;;
+    }
+    .contact_icon ul{
+        padding: 0rem 2rem 0rem 2rem;;
+    }
+    .HC_para{
+        font-size: 1.8rem;
+    }
+}
+
+@media all and (max-width: 386px){
+    html{
+        font-size: 55%;
+    }
+    .Home_icon{
+        margin: 6rem 2rem 0 0;
+    }
+}
